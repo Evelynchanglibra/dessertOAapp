@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//區塊式
+@import "./block/header"; //首頁上半部
+@import "./block/section"; // 為什麼選~  //垂直排列
+
+
+
+
+// //元件 放哪都可
+// @import"./block/like";//有互動的愛心
+
+
+// //通用類別
+
+@mixin header {
+    .header {
+        text-align: center;
+        font: normal normal 600 24px/40px PingFang TC;
+        justify-content: center;
+
+
+    }
+
+
+}
+

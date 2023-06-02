@@ -1,0 +1,72 @@
+.header {
+    height: 457px;
+
+    // &_bar_link :hover {
+    //     background: #FFE180 0% 0% padding-box;
+    //     background-repeat: no-repeat;
+    //     color: #3F5D45;
+    //     overflow: hidden
+    // }
+
+    &_table{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    &_table_title {
+        color: #3F5D45;
+        font-size: 20px;
+        -webkit-writing-mode: vertical-lr ;
+        writing-mode: vertical-lr;
+        -webkit-box-align: center;
+        font: normal normal 600 20px/24px PingFang TC;
+
+    }
+
+
+
+
+    &_main_image {
+        height: 277px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    &_table_image {
+        height: 180px;
+        background-color: #EAF0ED;
+    }
+
+    // .rectangle-section {
+    //     margin-top: -90px;
+    // }
+
+    &_category {
+        background-color: $primary;
+        color: #EAF0ED;
+        text-align: center;
+        font: normal normal 600 24px/40px PingFang TC;
+
+    }
+
+    &_category_allitem {
+        background-color: #EAF0ED;
+        text-align: center;
+        font: normal normal 600 24px/40px PingFang TC;
+    }
+
+    &_category_item {
+        text-align: center;
+        font: normal normal 600 24px/40px PingFang TC;
+
+    }
+
+
+
+}
+
+ul li {
+    list-style-type: none;
+}
